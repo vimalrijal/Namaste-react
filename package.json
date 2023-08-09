@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is a description, you can write anything you want",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalrijal/Namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "vimal",
+    "rijal",
+    "namaste",
+    "reaact"
+  ],
+  "author": "vimal rijal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vimalrijal/Namaste-react/issues"
+  },
+  "homepage": "https://github.com/vimalrijal/Namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
