@@ -4,6 +4,7 @@
   "description": "this is a description, you can write anything you want",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -30,5 +31,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
