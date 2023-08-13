@@ -10,11 +10,29 @@ const heading = React.createElement(
   "this is a H2 element"
 );
 
+const fnHeading = () => <h1>vimal</h1>;
+
+const Title = () => (
+  <div>
+    <h1>this is a titleDDSS</h1>
+  </div>
+);
+
+const HeadingComponent = () => (
+  <div>
+    {Title()}
+    <Title />
+    <Title></Title>
+    <h1>this is a heading component </h1>
+  </div>
+);
 // THIS IS JSX CREATE ELEMENT
 // normal html is not same as jsx element but it is like html
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const headingJSX = <h1 id="jsx-heading">this is created by jsx </h1>;
 
-root.render(heading); // this is rendering the core react create element
-root.render(headingJSX); // this is rendering the JSX element
+// root.render(heading); // this is rendering the core react create element
+// root.render(headingJSX); // this is rendering the JSX element
+
+root.render(<HeadingComponent />);
